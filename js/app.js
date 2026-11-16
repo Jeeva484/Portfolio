@@ -215,7 +215,8 @@ function initSynapseSimulator() {
     // Append User Message
     const userMsg = document.createElement('div');
     userMsg.className = 'chat-bubble-user p-3 rounded-lg text-sm max-w-[85%] self-end ml-auto mb-3';
-    userMsg.innerHTML = `<span class="text-xs text-indigo-300 font-semibold block mb-1"><i class="fas fa-user mr-1"></i>You:</span> ${data.query}`;
+    userMsg.innerHTML = '<span class="text-xs text-indigo-300 font-semibold block mb-1"><i class="fas fa-user mr-1"></i>You:</span><span class="synapse-user-query"></span>';
+    userMsg.querySelector('.synapse-user-query').textContent = data.query;
     chatOutput.appendChild(userMsg);
     chatOutput.scrollTop = chatOutput.scrollHeight;
 
@@ -232,16 +233,20 @@ function initSynapseSimulator() {
         <div class="flex items-center justify-between text-xs text-cyan-400 font-semibold mb-2">
           <span><i class="fas fa-robot mr-1"></i> SynapseAI Assistant</span>
           <span class="text-emerald-400 font-mono text-[11px] bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800">
-            Cosine Match: ${data.similarity}
+            Cosine Match: <span class="synapse-similarity"></span>
           </span>
         </div>
-        <p class="text-slate-200 text-sm leading-relaxed mb-3">${data.answer}</p>
+        <p class="synapse-answer text-slate-200 text-sm leading-relaxed mb-3"></p>
         <div class="bg-slate-900/80 p-2 rounded border border-slate-800 text-[11px] font-mono text-slate-400">
           <div class="text-indigo-300 font-semibold mb-1"><i class="fas fa-quote-left mr-1"></i> Grounded Evidence:</div>
-          <p class="italic text-slate-300 mb-1">"${data.contextChunk}"</p>
-          <div class="text-slate-500 text-[10px]">Citations: ${data.citations.join(' • ')}</div>
+          <p class="synapse-context italic text-slate-300 mb-1"></p>
+          <div class="text-slate-500 text-[10px]">Citations: <span class="synapse-citations"></span></div>
         </div>
       `;
+      aiMsg.querySelector('.synapse-similarity').textContent = data.similarity;
+      aiMsg.querySelector('.synapse-answer').textContent = data.answer;
+      aiMsg.querySelector('.synapse-context').textContent = `"${data.contextChunk}"`;
+      aiMsg.querySelector('.synapse-citations').textContent = data.citations.join(' • ');
       chatOutput.appendChild(aiMsg);
       chatOutput.scrollTop = chatOutput.scrollHeight;
 

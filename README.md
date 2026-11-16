@@ -16,8 +16,7 @@
   </p>
 
   <p>
-    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJeeva484%2FPortfolio"><img src="https://vercel.com/button" alt="Deploy with Vercel"></a>
-    <a href="https://vercel.com/claim-deployment?code=4a7156d9-1507-4527-8e04-ef4468e1cd4f"><img src="https://img.shields.io/badge/Vercel-Claim_Live_Deployment-black?style=for-the-badge&logo=vercel" alt="Claim Deployment"></a>
+    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJeeva484%2Fportfolio"><img src="https://vercel.com/button" alt="Deploy with Vercel"></a>
   </p>
 
   <p>
@@ -233,10 +232,11 @@ npm start # or node scripts/server.js
 
 ## ⚡ 1-Click Production Deployment on Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJeeva484%2FPortfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJeeva484%2Fportfolio)
 
-* **Direct 1-Click Import:** Click the **Deploy with Vercel** button above or import via [vercel.com/new](https://vercel.com/new) selecting `Jeeva484/Portfolio`.
-* **Instant Claim Link:** [Claim Existing Deployment](https://vercel.com/claim-deployment?code=4a7156d9-1507-4527-8e04-ef4468e1cd4f)
+* **Deploy from GitHub:** Click the button above, connect your Vercel account to GitHub, and import `Jeeva484/portfolio`.
+* **Project settings:** Use the repository root; the site is static HTML/CSS/JavaScript and requires no framework preset or environment variables.
+* **Continuous deployment:** Once connected, Vercel can deploy new production versions when changes are pushed to the repository's `main` branch.
 
 ---
 
