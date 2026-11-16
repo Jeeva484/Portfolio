@@ -57,7 +57,7 @@ Author of peer-reviewed research presented and published at the **IEEE Internati
 
 | Project Name | Primary Stack | Live Demo / App | Source Code |
 | :--- | :--- | :--- | :--- |
-| **Portfolio Web App** | Modern HTML5/CSS3, Tailwind, Interactive Simulators | [**Claim Live Vercel Deployment ↗**](https://vercel.com/claim-deployment?code=4a7156d9-1507-4527-8e04-ef4468e1cd4f) | [Jeeva484/Portfolio ↗](https://github.com/Jeeva484/Portfolio) |
+| **Portfolio Web App** | Modern HTML5/CSS3, Tailwind, Interactive Simulators | [**Live on Vercel ↗**](https://myportfolio727.vercel.app) | [Jeeva484/Portfolio ↗](https://github.com/Jeeva484/Portfolio) |
 | **Pokedex Lite** | React, Next.js, TypeScript, PokéAPI, LocalStorage | [Live on Vercel ↗](https://pokedex-lite-kappa.vercel.app) | [Jeeva484/Pokedex-lite ↗](https://github.com/Jeeva484/Pokedex-lite) |
 | **Weather & Climate App** | JavaScript (ES6+), HTML5, CSS3, OpenWeather API | [Live on Vercel ↗](https://weather-app-cyan-nu-97.vercel.app) | [Jeeva484/Weather-App ↗](https://github.com/Jeeva484/Weather-App) |
 | **SynapseAI** | Next.js, FastAPI, Qdrant Vector DB, LangChain, Docker | [Interactive Simulator](#1-synapseai--enterprise-rag-ai-assistant) | [GitHub / Jeeva484](https://github.com/Jeeva484) |
@@ -223,7 +223,7 @@ git clone https://github.com/Jeeva484/Portfolio.git
 cd Portfolio
 
 # 2. Run with standard Node.js server (zero external dependencies required)
-node server.js
+npm start # or node dev-server.js
 
 # 3. Open your browser
 # Visit http://localhost:3000
