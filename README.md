@@ -235,7 +235,7 @@ npm start # or node scripts/server.js
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJeeva484%2Fportfolio)
 
 * **Deploy from GitHub:** Click the button above, connect your Vercel account to GitHub, and import `Jeeva484/portfolio`.
-* **Project settings:** Use the repository root; the site is static HTML/CSS/JavaScript and requires no framework preset or environment variables.
+* **Project settings:** Use the repository root and the **Other** framework preset. `npm run build` creates the static site in `dist/`; no environment variables are required.
 * **Continuous deployment:** Once connected, Vercel can deploy new production versions when changes are pushed to the repository's `main` branch.
 
 ---
