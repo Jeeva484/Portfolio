@@ -223,7 +223,7 @@ git clone https://github.com/Jeeva484/Portfolio.git
 cd Portfolio
 
 # 2. Run with standard Node.js server (zero external dependencies required)
-npm start # or node dev-server.js
+npm start # or node scripts/server.js
 
 # 3. Open your browser
 # Visit http://localhost:3000

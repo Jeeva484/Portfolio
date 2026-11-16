@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Professional Portfolio for Jeeva Sugin D - Full-Stack & Generative AI Engineer",
   "scripts": {
-    "start": "node dev-server.js",
-    "dev": "node dev-server.js"
+    "start": "node scripts/server.js",
+    "dev": "node scripts/server.js"
   },
   "keywords": ["portfolio", "fullstack", "genai", "rag", "deeplearning"],
   "author": "Jeeva Sugin D",
