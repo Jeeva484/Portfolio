@@ -16,6 +16,11 @@
   </p>
 
   <p>
+    <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJeeva484%2FPortfolio"><img src="https://vercel.com/button" alt="Deploy with Vercel"></a>
+    <a href="https://vercel.com/claim-deployment?code=4a7156d9-1507-4527-8e04-ef4468e1cd4f"><img src="https://img.shields.io/badge/Vercel-Claim_Live_Deployment-black?style=for-the-badge&logo=vercel" alt="Claim Deployment"></a>
+  </p>
+
+  <p>
     <img src="https://img.shields.io/badge/Target_Locations-Chennai_%7C_Bangalore-06b6d4?style=flat-square" alt="Locations">
     <img src="https://img.shields.io/badge/Status-Actively_Interviewing-success?style=flat-square" alt="Status">
     <img src="https://img.shields.io/badge/IEEE-Published_Author-blueviolet?style=flat-square" alt="IEEE">
@@ -52,12 +57,12 @@ Author of peer-reviewed research presented and published at the **IEEE Internati
 
 | Project Name | Primary Stack | Live Demo / App | Source Code |
 | :--- | :--- | :--- | :--- |
-| **SynapseAI** | Next.js, FastAPI, Qdrant Vector DB, LangChain, Docker | [Interactive Simulator](#1-synapseai--enterprise-rag-ai-assistant) | [GitHub / Jeeva484](https://github.com/Jeeva484) |
-| **Hemorrhagic Stroke CNN** | Python, TensorFlow, CNN, OpenCV, Flask, Render | [IEEE ICGCCT 2026 Paper](#2-hemorrhagic-stroke-prediction-using-deep-learning-algorithm) | [GitHub / Jeeva484](https://github.com/Jeeva484) |
+| **Portfolio Web App** | Modern HTML5/CSS3, Tailwind, Interactive Simulators | [**Claim Live Vercel Deployment ↗**](https://vercel.com/claim-deployment?code=4a7156d9-1507-4527-8e04-ef4468e1cd4f) | [Jeeva484/Portfolio ↗](https://github.com/Jeeva484/Portfolio) |
 | **Pokedex Lite** | React, Next.js, TypeScript, PokéAPI, LocalStorage | [Live on Vercel ↗](https://pokedex-lite-kappa.vercel.app) | [Jeeva484/Pokedex-lite ↗](https://github.com/Jeeva484/Pokedex-lite) |
 | **Weather & Climate App** | JavaScript (ES6+), HTML5, CSS3, OpenWeather API | [Live on Vercel ↗](https://weather-app-cyan-nu-97.vercel.app) | [Jeeva484/Weather-App ↗](https://github.com/Jeeva484/Weather-App) |
+| **SynapseAI** | Next.js, FastAPI, Qdrant Vector DB, LangChain, Docker | [Interactive Simulator](#1-synapseai--enterprise-rag-ai-assistant) | [GitHub / Jeeva484](https://github.com/Jeeva484) |
+| **Hemorrhagic Stroke CNN** | Python, TensorFlow, CNN, OpenCV, Flask, Render | [IEEE ICGCCT 2026 Paper](#2-hemorrhagic-stroke-prediction-using-deep-learning-algorithm) | [GitHub / Jeeva484](https://github.com/Jeeva484) |
 | **Invoicely Lite (`pse-support-lab`)**| Go (Golang), REST APIs, Log Triage, Diagnostics | Backend Support Lab | [Jeeva484/pse-support-lab ↗](https://github.com/Jeeva484/pse-support-lab) |
-| **Portfolio Web App** | Modern HTML5/CSS3, Tailwind, Interactive Simulators | [Live on Localhost:3000](http://localhost:3000) | [Jeeva484/portfolio ↗](https://github.com/Jeeva484/portfolio) |
 
 ---
 
@@ -214,8 +219,8 @@ Author of peer-reviewed research presented and published at the **IEEE Internati
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/Jeeva484/portfolio.git
-cd portfolio
+git clone https://github.com/Jeeva484/Portfolio.git
+cd Portfolio
 
 # 2. Run with standard Node.js server (zero external dependencies required)
 node server.js
@@ -223,6 +228,15 @@ node server.js
 # 3. Open your browser
 # Visit http://localhost:3000
 ```
+
+---
+
+## ⚡ 1-Click Production Deployment on Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJeeva484%2FPortfolio)
+
+* **Direct 1-Click Import:** Click the **Deploy with Vercel** button above or import via [vercel.com/new](https://vercel.com/new) selecting `Jeeva484/Portfolio`.
+* **Instant Claim Link:** [Claim Existing Deployment](https://vercel.com/claim-deployment?code=4a7156d9-1507-4527-8e04-ef4468e1cd4f)
 
 ---
 
